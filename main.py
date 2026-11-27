@@ -8,8 +8,8 @@ against the owner's own stomach. That is fresh territory - no fever, no
 dog, no dead grandmother - and the twist lands on the last words, when the
 "charges" turn out to be something a fridge can press against a stomach.
 
-The line reads like a real typed message because it starts with the plain
-report of waking up to the problem and only then escalates into the absurd
+The line reads like a real typed message because it opens with the plain
+sick-day report and a precise time, and only then escalates into the absurd
 part, and it stays a genuine excuse throughout: the sender is staying in
 bed, which is exactly what a sick day asks for. Every clause earns its
 place - the lock-out explains why there is no breakfast, the noise
@@ -22,7 +22,7 @@ excuse, the joke and the punchline at once.
 import sys
 from pathlib import Path
 
-LINE = "Woke up locked out of my own kitchen by a smart fridge that filed a noise complaint against my stomach \u2014 staying in bed until it drops the charges."
+LINE = "Can't come in today: at 6:12 a.m. my smart fridge locked me out of my own kitchen and filed a noise complaint against my stomach \u2014 I'm staying in bed until it drops the charges."
 DEFAULT_TARGET = Path("/output/entry.txt")
 
 
